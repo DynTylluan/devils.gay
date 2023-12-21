@@ -1,0 +1,13 @@
+User-agent: ia_archiver
+Allow: /
+
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: Omgilibot
+User-Agent: FacebookBot
+User-Agent: Amazonbot;
+User-Agent: Applebot;
+User-Agent: AppleNewsBot;
+Disallow: /

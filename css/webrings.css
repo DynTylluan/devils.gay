@@ -1,0 +1,140 @@
+/*TransmascRing*/
+#tmring {
+  background-color: #000;
+  border-radius: 10px;
+  border: 2px solid rgba(186, 12, 248, 1);
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+#tmri {
+  max-width: 100%;
+}
+
+#tmri a {
+  font-size: .5rem;
+}
+
+#tmri p {
+  margin-top: 5px;
+}
+
+#tmri p {
+    background-image: linear-gradient(to right,  rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/*AHSC*/
+
+@font-face {
+    font-family: 'venice_classicmedium';
+    src: url('https://feelingmachine.moe/veniceclassic-webfont.woff2') format('woff2'),
+         url('https://feelingmachine.moe/veniceclassic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#ahsc {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#ahsc table {
+  background-color: black;
+  margin: 0 auto;
+  border: 4px #6f3d7b double;
+  border-radius: 10px;
+  background-image: url("https://feelingmachine.moe/alterring/ahscbackground.png");
+  font-size: 16px;
+  max-width: 100%;
+  height: 150px;
+}
+
+#ahsc table tr td {
+  padding: 15px;
+}
+
+#ahsc .ahsc-prev {
+  font-size: 16px;
+  text-align:left;
+  font-family: 'serif';
+  color: white;
+}
+
+#ahsc .ahsc-info {
+  font-size: 16px;
+   text-align:center;
+       font-family: 'venice_classicmedium';
+
+  color: white;
+	text-shadow: -1px 1px 0 #4b1e60,
+				  1px 1px 0 #4b1e60,
+				 1px -1px 0 #4b1e60,
+				-1px -1px 0 #4b1e60;
+}
+
+#ahsc .ahsc-next {
+  font-size: 16px;
+  text-align:right;
+      font-family: 'serif';
+
+  color: white;
+}
+
+#ahsc .ahsc-links {
+  font-size:12px;;
+      font-family: 'venice_classicmedium';
+  color: white;
+	text-shadow: -1px 1px 0 #4b1e60FF,
+				  1px 1px 0 #4b1e60FF,
+				 1px -1px 0 #4b1e60FF,
+				-1px -1px 0 #4b1e60FF;
+  
+}
+#ahsc a {
+  color: #bb00ff;
+}
+#ahsc a:hover {
+  color: #ff00ff;
+}
+#ahsc a:visited {
+  color: #8B00C6;
+}
+
+#RPGMaker {
+  margin-top: 25px;
+}
+
+#webring {
+  text-align: center;
+}
+
+#webring div {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+@media screen and (max-width:620px) {
+  #webring div {
+    display: none;
+  }  
+}

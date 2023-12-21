@@ -1,0 +1,152 @@
+/* Global variables */
+:root {
+    --bg: #d8c99b;
+    --color1: #d8973c;
+    --text: #000320;
+    --color2: #4c1e4f;
+    --color3: #bd632f;
+    --color4: #a4243b;
+  }
+  
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #4c1e4f;
+        --color1: #a4243b;
+        --text: #d8c99b;
+        --color2: #d8973c;
+        --color3: #000320;
+        --color4: #bd632f;
+    }
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    color:  var(--text);
+    background-color: var(--bg);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 40em;
+    padding: 0 1em;
+}
+
+a {
+    color: var(--color4);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--color2);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    max-width: max-content;
+    margin: 1rem 0;
+    padding: .5rem;
+    background-color: var(--color1);
+    box-shadow: 8px 8px var(--color3);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline-start: 0;
+}
+
+nav li {
+    list-style: none;
+    padding-inline-start: 0;
+    word-wrap: break-word;
+    background-color: var(--text);
+    width: 7.2rem;
+}
+
+nav a {
+    padding: 1px 2em 1px 5px;
+    text-decoration: none;
+    color: var(--bg);
+    text-transform: lowercase;
+}
+
+nav a:hover {
+    color: var(--color1);
+}
+
+ul {
+    list-style: square;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px dashed var(--color2);
+}
+
+#quote {
+    background-color: var(--color4);
+    box-shadow: 0 0 0 8px var(--color4);
+    border: 3px solid var(--bg);
+    box-sizing: border-box;
+    color: var(--bg);
+    margin: 30px auto;
+    padding: 0 1rem;
+}
+
+q {
+    font-style: italic;
+}
+
+q::before {
+    content: '«';
+}
+
+q::after {
+    content: '»';
+}
+
+footer {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.col ul {
+    padding-inline-start: 0;
+    width: 45%;
+}
+
+.col li {
+    word-wrap: break-word;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.label {
+    background-color: var(--color1);
+    padding: 0 5px;
+}
